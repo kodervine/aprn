@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Bars3CenterLeftIcon } from '@heroicons/react/24/outline';
+import { Bars3CenterLeftIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
@@ -14,8 +14,8 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar font-medium flex justify-between items-center">
-      <div className="logo">
-        <Link to="/">APRN</Link>
+      <div className="logo uppercase">
+        <Link to="/">Africa and Diaspora Perspectives Research Network</Link>
       </div>
 
       <button className="md:hidden" title="Menu" onClick={toggleMenu}>
@@ -90,9 +90,9 @@ const Navbar: React.FC = () => {
           <div className="flex justify-end">
             <button
               onClick={toggleMenu}
-              className="bg-orange-50 p-2 rounded-lg"
+              className="bg-purple-50 p-2 rounded-lg"
             >
-              Close
+              <XMarkIcon className="h-6 w-6" />
             </button>
           </div>
           <ul className="flex flex-col gap-4 mt-6">

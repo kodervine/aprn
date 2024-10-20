@@ -11,12 +11,13 @@ const Contact: React.FC = () => {
           in touch!
         </p>
         <p className="text-lg text-gray-600">
-          Email us at{' '}
+          Email us
           <a
-            href="mailto:researchgroup@historians.org"
-            className="text-blue-500 hover:underline"
+            href="mailto:ngozika.obi-ani@unn.edu.ng"
+            className="text-purple-800 hover:underline"
           >
-            researchgroup@historians.org
+            {' '}
+            here
           </a>
         </p>
       </div>

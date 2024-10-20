@@ -34,7 +34,7 @@ const Publications = () => {
                 {item.doi && (
                   <a
                     href={`https://doi.org/${item.doi}`}
-                    className="text-purple-800 underline mt-2 block"
+                    className="text-purple-800 underline mt-2 block break-all"
                   >
                     DOI: {item.doi}
                   </a>

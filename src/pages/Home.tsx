@@ -31,9 +31,10 @@ const Home = () => {
       {/* Introduction Section */}
       <section className="py-16 text-center">
         <p className="text-lg mt-4 px-4 md:px-24">
-          APRN is dedicated to understanding and highlighting the intricate
-          histories and contributions of Africa and its diaspora across
-          centuries and continents.
+          Africa and Diaspora Perspectives Research Network is dedicated to
+          understanding and highlighting the intricate histories and
+          contributions of Africa and its diaspora across centuries and
+          continents.
         </p>
 
         {/* Cards Section */}

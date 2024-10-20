@@ -11,9 +11,9 @@ export const publications = [
         summary:
           'This research critically examines the post-civil war Igba-boi apprenticeship system, unveiling its pivotal role in shaping Onitsha into a thriving urban economic hub through robust human capital development. The apprenticeship system forged between a trader-mentor and a mentee over a specific timeframe act as a conduit for passing on trade expertise...',
         date: 'June, 2024',
-        publisher: 'Africa Studies Review',
+        publisher: 'African Studies Review',
         type: EPublicationType.Review,
-        doi: '',
+        doi: 'https://www.cambridge.org/core/journals/african-studies-review/article/jonathan-silver-the-infrastructural-south-technoenvironments-of-the-third-wave-of-urbanization-cambridge-ma-mit-press-2023-ix-305-5000-paper-isbn-9780262546874/F44A07C66E064C0D34E5445B54A3CB3D',
       },
       {
         title:
