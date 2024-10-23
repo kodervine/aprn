@@ -6,7 +6,7 @@ import OdinakaEze from '@/assets/images/odinaka-eze.jpg';
 import SochimaOkafor from '@/assets/images/sochima-okafor.png';
 import { EResearcherNames } from '@/services/types/publications';
 
-export const researchers = [
+export const coreTeamResearchers = [
   {
     name: `Dr. ${EResearcherNames.Ngozika_Obi_Ani}`,
     title: 'Senior Lecturer, Ph.D, M.A, B.A',
@@ -17,7 +17,7 @@ export const researchers = [
   },
   {
     name: `Prof. ${EResearcherNames.Paul_Obi_Ani}`,
-    title: 'Professor (Associate), Ph.D, M.A, B.A ',
+    title: 'Professor, Ph.D, M.A, B.A ',
     image: PaulObiani,
     interests: '',
     research:
@@ -25,7 +25,7 @@ export const researchers = [
   },
   {
     name: EResearcherNames.Mathias_Isiani,
-    title: 'Ph.D (In view), M.A, B.A, Economic Historian',
+    title: 'Imperial Urban Historian, Ph.D (In view), M.A, B.A',
     image: MathiasIsiani,
     // image: 'https://www.svgrepo.com/show/3130/user.svg',
     interests: '',
@@ -42,7 +42,7 @@ export const researchers = [
   },
   {
     name: EResearcherNames.Odinaka_Eze,
-    title: 'Ph.D (In view), M.A, B.A, Health Historian',
+    title: 'Health Historian, Ph.D (In view), M.A, B.A',
     image: OdinakaEze,
     interests: '',
     research:
@@ -50,7 +50,7 @@ export const researchers = [
   },
   {
     name: EResearcherNames.Sochima_Okafor,
-    title: 'M.A (In view), B.A',
+    title: 'Film Historian, M.A (In view), B.A',
     image: SochimaOkafor,
     interests: '',
     research: 'Colonialism, Nigeria, Colonial Films, Science and Technology',
