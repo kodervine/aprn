@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 
 interface Conference {
   year: number;
@@ -31,7 +31,10 @@ const conferences: Conference[] = [
   },
 ];
 
-const Conferences: React.FC = () => {
+const Conferences = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
   return (
     <div className="min-h-screen bg-gray-100 py-12">
       <div className="max-w-5xl mx-auto">

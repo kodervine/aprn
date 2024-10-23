@@ -71,6 +71,18 @@ const Navbar: React.FC = () => {
           </Link>
           <div className="navbar-li-hover"></div>
         </li>
+        {/* <li
+          className={`relative group ${
+            isActive('/conferences')
+              ? 'text-purple-900 border-b-2 border-purple-900'
+              : ''
+          }`}
+        >
+          <Link to="/conferences" className="navbar-li-text">
+            Conferences
+          </Link>
+          <div className="navbar-li-hover"></div>
+        </li> */}
         <li
           className={`relative group ${
             isActive('/contact')

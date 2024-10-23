@@ -1,7 +1,37 @@
 import HomeBannerImg from '@/assets/images/home-banner.jpg';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+const InfoCard = ({ title, content }: { title: string; content: string }) => {
+  return (
+    <div className="py-10 rounded-lg text-left">
+      <div className="flex gap-4 justify-between items-center">
+        <div className="font-bold w-1/2">{title}</div>
+        <div className="w-1/2">{content}</div>
+      </div>
+      <hr className="mt-4" />
+    </div>
+  );
+};
+const StatisticsCard = ({ stats }: any) => {
+  return (
+    <div className="flex gap-4 justify-between">
+      {stats.map((stat: any, index: number) => (
+        <div key={index} className="flex flex-col gap-5">
+          <div className="text-4xl lg:text-[80px] font-bold text-gray-800">
+            {stat.number}
+          </div>
+          <div className="text-base lg:text-lg">{stat.label}</div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
   return (
     <div className="min-h-screen">
       {/* Banner Section */}
@@ -22,7 +52,7 @@ const Home = () => {
           <p className="text-white text-xl mt-4 text-center">
             Uncovering Histories, Understanding the Present
           </p>
-          <button className="mt-6 px-8 py-4 bg-purple-800 text-white rounded-lg hover:bg-purple-700">
+          <button className="mt-6 px-8 py-4 bg-purple-900 text-white rounded-lg hover:bg-purple-800">
             <Link to="/publications"> Explore Our Research</Link>
           </button>
         </div>
@@ -38,34 +68,32 @@ const Home = () => {
         </p>
 
         {/* Cards Section */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 shadow-lg rounded-lg">
-            <h3 className="text-xl font-bold">Migration</h3>
-            <br />
-            <hr className="h-1" />
-            <p className="mt-2">
-              Researching the movement of African peoples and its impact on
-              global cultures.
-            </p>
-          </div>
-          <div className="bg-white p-6 shadow-lg rounded-lg">
-            <h3 className="text-xl font-bold">Cultural Interactions</h3>
-            <br />
-            <hr className="h-1" />
-            <p className="mt-2">
-              Exploring the exchanges between African and global cultures across
-              history.
-            </p>
-          </div>
-          <div className="bg-white p-6 shadow-lg rounded-lg">
-            <h3 className="text-xl font-bold">Modern Impacts</h3>
-            <br />
-            <hr className="h-1" />
-            <p className="mt-2">
-              Understanding the legacy of African migrations on modern-day
-              societies.
-            </p>
-          </div>
+
+        <div className="mt-12">
+          <h2 className="font-bold">Our Areas of Focus</h2>
+          <br />
+          <InfoCard
+            title="Migration"
+            content="Researching the movement of African peoples and its impact on global cultures."
+          />
+          <InfoCard
+            title="Cultural Interactions"
+            content="Exploring the exchanges between African and global cultures across history."
+          />
+          <InfoCard
+            title="Modern Impacts"
+            content="Understanding the legacy of African migrations on modern-day societies."
+          />
+          <h5 className="uppercase text-left py-10 font-bold text-purple-800">
+            Our Achievements
+          </h5>
+          <StatisticsCard
+            stats={[
+              { number: '50+', label: 'Publications' },
+              { number: '20+', label: 'Expert Researchers' },
+              { number: '10+', label: 'Institutions Represented' },
+            ]}
+          />
         </div>
       </section>
     </div>
