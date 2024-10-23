@@ -23,7 +23,7 @@ const AppRoutes = () => {
     },
     {
       path: '/*',
-      element: <>Error page</>,
+      element: <Navigate to="/home" />,
     },
   ]);
 

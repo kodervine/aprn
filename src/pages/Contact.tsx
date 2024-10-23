@@ -5,7 +5,7 @@ const Contact = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-12">
+    <div className="min-h-screen flex flex-col items-center justify-center py-12 px-6">
       <h1 className="text-4xl font-bold text-gray-800 mb-6">Contact Us</h1>
 
       <div className="text-center max-w-md mx-auto mb-10">

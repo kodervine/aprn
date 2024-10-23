@@ -3,8 +3,48 @@ import {
   GlobeAltIcon,
   DocumentTextIcon,
   UsersIcon,
+  ShieldExclamationIcon,
 } from '@heroicons/react/24/outline';
 export const aboutContent = [
+  {
+    title: 'Black Studies',
+    points: [
+      'Exploring the history and culture of African and African American communities.',
+      'Researching the African Diaspora and its global impact.',
+      'Examining racial identity, social justice movements, and Black empowerment.',
+      'Analyzing African contributions to global culture and society.',
+    ],
+    description:
+      'Focusing on the contributions and struggles of African and African American communities globally.',
+    icon: InformationCircleIcon,
+  },
+
+  {
+    title: 'Conflict and War Studies',
+    points: [
+      'Studying the causes and consequences of wars and conflicts.',
+      'Analyzing peacebuilding efforts and conflict resolution strategies.',
+      'Exploring the impact of wars on societies, economies, and politics.',
+      'Researching historical and contemporary conflicts globally.',
+    ],
+    description:
+      'Examining the causes, impacts, and resolution strategies of conflicts and wars.',
+    icon: ShieldExclamationIcon,
+  },
+
+  {
+    title: 'Gender Studies',
+    points: [
+      'Researching the social and cultural constructions of gender and sexuality.',
+      'Exploring power dynamics and inequality related to gender.',
+      'Analyzing the intersection of gender with race, class, and other identities.',
+      'Investigating the role of gender in shaping social and political systems.',
+    ],
+    description:
+      'Examining the complexities of gender and its intersection with other social categories.',
+    icon: UsersIcon,
+  },
+
   {
     title: 'Migration Patterns',
     points: [

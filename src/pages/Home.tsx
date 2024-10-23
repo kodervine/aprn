@@ -45,7 +45,7 @@ const Home = () => {
         }}
         title="Photo by Mukhtar Shuaib Mukhtar: https://www.pexels.com/photo/view-of-the-zuma-rock-in-niger-state-nigeria-21715785/"
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center px-4">
           <h1 className="text-white text-4xl md:text-6xl font-bold text-center">
             Exploring the Africa Stories
           </h1>
@@ -72,6 +72,18 @@ const Home = () => {
         <div className="mt-12">
           <h2 className="font-bold">Our Areas of Focus</h2>
           <br />
+          <InfoCard
+            title="Black Studies"
+            content="Focusing on the history, culture, and contributions of African and African American communities, highlighting social justice and identity."
+          />{' '}
+          <InfoCard
+            title="Gender Studies"
+            content="Examining the social constructions of gender, power dynamics, and inequality, along with the intersection of gender, race, and class."
+          />
+          <InfoCard
+            title="Conflict and War Studies"
+            content="Analyzing the causes and impacts of wars and conflicts throughout history, including peacebuilding and international relations."
+          />
           <InfoCard
             title="Migration"
             content="Researching the movement of African peoples and its impact on global cultures."
