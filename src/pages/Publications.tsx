@@ -48,10 +48,10 @@ const Publications = () => {
           className="p-2 border border-gray-300 rounded-md outline-none focus:outline-purple-900"
         >
           <option value="">All Types</option>
-          <option value={EPublicationType.Article}>Article</option>
-          <option value={EPublicationType.BookChapter}>Book Chapter</option>
-          <option value={EPublicationType.BookReview}>Book Review</option>
-          <option value={EPublicationType.Essay}>Essay</option>
+          <option value={EPublicationType.Article}>Articles</option>
+          <option value={EPublicationType.BookChapter}>Book Chapters</option>
+          <option value={EPublicationType.BookReview}>Book Reviews</option>
+          <option value={EPublicationType.Essay}>Essays</option>
         </select>
       </div>
 
