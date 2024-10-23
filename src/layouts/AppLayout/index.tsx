@@ -9,8 +9,8 @@ const AppLayout = () => {
       <main>
         <Outlet />
       </main>
-      <footer className="bg-gray-800 text-white text-center py-4">
-        &copy; {new Date().getFullYear()} APRN. All rights reserved.
+      <footer className="bg-[#4c2a52] text-white text-center py-4">
+        &copy; {new Date().getFullYear()} ADPRN. All rights reserved.
       </footer>
     </div>
   );
