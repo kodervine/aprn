@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Bars3CenterLeftIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from '@/assets/images/logo.png';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -14,15 +15,20 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar font-medium flex justify-between items-center">
-      <div className="logo uppercase">
+      <div className="logo uppercase flex items-center gap-2">
+        <img
+          src={Logo}
+          alt="Africa and Diaspora Perspectives Research Network"
+          className="w-16 h-16 rounded-full object-cover"
+        />
         <Link to="/">Africa and Diaspora Perspectives Research Network</Link>
       </div>
 
-      <button className="md:hidden" title="Menu" onClick={toggleMenu}>
+      <button className="lg:hidden" title="Menu" onClick={toggleMenu}>
         <Bars3CenterLeftIcon className="h-6 w-6 rotate-180" />
       </button>
 
-      <ul className="hidden md:flex gap-6">
+      <ul className="hidden lg:flex gap-6">
         <li
           className={`relative group ${
             isActive('/') || isActive('/home')
@@ -98,7 +104,7 @@ const Navbar: React.FC = () => {
       </ul>
 
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-white z-50 p-4 md:hidden">
+        <div className="fixed inset-0 bg-white z-50 p-4 lg:hidden">
           <div className="flex justify-end">
             <button
               onClick={toggleMenu}
