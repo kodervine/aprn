@@ -6,8 +6,59 @@ import {
 
 export const publications = [
   {
+    year: 2025,
+    items: [
+      {
+        title:
+          'An Unbalanced Equation: exploring gender disparity among academics in Southeast Universities, Nigeria.',
+        authors: [
+          EResearcherNames.Abel_Ugwu,
+          EResearcherNames.Ngozika_Obi_Ani,
+        ].join(', '),
+        summary:
+          'This chapter examines the persistent gender disparities among academics in Southeast Nigerian universities, analyzing factors to understand the root causes and potential solutions',
+        date: 'January, 2025',
+        publisher: EPublisherNames.RoutledgeHandbookOfContemporaryAfricanWomen,
+        type: EPublicationType.BookChapter,
+        doi: 'http://dx.doi.org/10.4324/9781003413820-31',
+      },
+    ],
+  },
+  {
     year: 2024,
     items: [
+      {
+        title:
+          'Unforgotten shadows: exploring the dynamics of Biafra agitation in south-east Nigeria.',
+        authors: EResearcherNames.Ngozika_Obi_Ani,
+        summary:
+          'This article examines IPOB’s sit-at-home directive and the escalating focus on fear and retribution against transgressors in the south-eastern region. This article offers an interpretative lens to comprehend the intricate issues at stake.',
+        date: 'December, 2024',
+        publisher: EPublisherNames.JournalOfTheInternationalAfricanInstitute,
+        type: EPublicationType.Article,
+        doi: 'https://www.cambridge.org/core/journals/africa/article/unforgotten-shadows-exploring-the-dynamics-of-biafra-agitation-in-southeast-nigeria/B22FC8E9B3178132F74321807A3CFBB9',
+      },
+      {
+        title: 'Crossroads: leprosy, Igbo cosmology and cultural worldviews',
+        authors: EResearcherNames.Odinaka_Eze,
+        summary:
+          'This research examines the continuity and changes in Igbo thoughts on leprosy by exploring Igbo cosmology and its relationship with Christian and colonial ideas about the disease. It argues that colonial and Christian missionary ideas did not radically transform the perceptions of leprosy in south-eastern Nigeria.',
+        date: 'December, 2024',
+        publisher: EPublisherNames.JournalOfTheInternationalAfricanInstitute,
+        type: EPublicationType.Article,
+        doi: 'https://www.cambridge.org/core/journals/africa/article/unforgotten-shadows-exploring-the-dynamics-of-biafra-agitation-in-southeast-nigeria/B22FC8E9B3178132F74321807A3CFBB9',
+      },
+      {
+        title:
+          'Connor Ryan. Lagos Never Spoils: Nollywood and Nigerian City Life.',
+        authors: EResearcherNames.Sochima_Okafor,
+        summary:
+          'A review of Connor Ryan. Lagos Never Spoils: Nollywood and Nigerian City Life. Ann Arbor, MI: University of Michigan Press, 2023. 269 pp. Illustrations. Notes. Bibliography',
+        date: 'October, 2024',
+        publisher: EPublisherNames.AfricanStudiesReviews,
+        type: EPublicationType.BookReview,
+        doi: 'https://doi.org/10.1017/asr.2024.89',
+      },
       {
         title:
           'Jonathan Silver. The Infrastructural South: Techno-Environments of the Third Wave of Urbanization.',
@@ -87,6 +138,17 @@ export const publications = [
         type: EPublicationType.Article,
         doi: 'https://www.njh.com.ng/admin/img/paper/NJH-32-1-2024-49-62.pdf',
       },
+      {
+        title:
+          'Animal Bewitchment in a Nigerian City: An Anthrozoological Study of Human-Cat Relations in Lagos State',
+        authors: EResearcherNames.Nnaemeka_Enemchukwu,
+        summary:
+          'This paper examines the growing prevalence of inhumane human-cat relationships in Nigeria. Despite Lagos State being one of the most educated urban areas in West Africa, persistent cultural practices of cat cruelty exist within various communities. This study investigates the complex socio-cultural, religious, and environmental factors contributing to such attitudes.',
+        date: 'February, 2024',
+        publisher: EPublisherNames.NsukkaJournalOfTheHumanities,
+        type: EPublicationType.Article,
+        doi: 'https://doi.org/10.4236/jss.2024.122004',
+      },
     ],
   },
   {
@@ -106,7 +168,7 @@ export const publications = [
       },
       {
         title:
-          'Decolonizing Trauma Studies:: The Recognition-Solidarity Nexus in Uwem Akpan’s Say You’re One of Them',
+          'Decolonizing Trauma Studies: The Recognition-Solidarity Nexus in Uwem Akpan’s Say You’re One of Them',
         authors: EResearcherNames.Chijioke_Onah,
         summary: '',
         date: 'December, 2023',
