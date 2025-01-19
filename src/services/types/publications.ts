@@ -29,6 +29,8 @@ export enum EResearcherNames {
   Uche_Okonkwo = 'Uche Uwaezuoke Okonkwo',
   Cindy_Ezeugwu = 'Cindy Anene Ezeugwu',
   Chijioke_Onah = 'Chijioke Kizito Onah',
+  Nnaemeka_Enemchukwu = 'Nnaemeka Enemchukwu',
+  Abel_Ugwu = 'Abel Ugwu',
 }
 
 export enum EPublisherNames {
@@ -40,5 +42,8 @@ export enum EPublisherNames {
   JournalOfCulturalHeritageManagementandSustainableDevelopment = 'Journal of Cultural Heritage Management and Sustainable Development',
   SouthAsianJournalOfSocialSciencesAndHumanities = 'South Asian Journal of Social Sciences and Humanities',
   JournalOfOostColonialWriting = 'Journal of Postcolonial Writing',
-  CambridgeJournalOfPostcolonialLiteraryInquiry = 'Cambridge Journal of Postcolonial Literary Inquiry ',
+  CambridgeJournalOfPostcolonialLiteraryInquiry = 'Cambridge Journal of Postcolonial Literary Inquiry',
+  JournalOfTheInternationalAfricanInstitute = 'Journal of the International African Institute',
+  OpenJournalOfSocialSciences = 'Open Journal Of Social Sciences',
+  RoutledgeHandbookOfContemporaryAfricanWomen = 'Routledge Handbook of Contemporary African Women',
 }
