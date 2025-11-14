@@ -50,7 +50,7 @@ export const coreTeamResearchers = [
   },
   {
     name: EResearcherNames.Sochima_Okafor,
-    title: 'Film Historian, M.A (In view), B.A',
+    title: 'Film Historian, Ph.D (Student), M.A, B.A',
     image: SochimaOkafor,
     interests: '',
     research: 'Colonialism, Nigeria, Colonial Films, Science and Technology',

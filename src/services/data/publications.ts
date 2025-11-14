@@ -50,6 +50,17 @@ export const publications = [
       },
       {
         title:
+          'Expounding Farmer-herder Violence in Eastern Nigeria: The Case of the 2016 Nimbo-Ukpabi Incident in Enugu State',
+        authors: EResearcherNames.Ngozika_Obi_Ani,
+        summary:
+          'In book: Armed Conflict and Political Violence in Nigeria.: Complex Drivers, Emerging Patterns and Impacts.Chapter: Seven',
+        publisher: EPublisherNames.ConflictResearchNetworkWestAfrica,
+        date: 'November, 2024',
+        type: EPublicationType.BookChapter,
+        doi: 'https://www.researchgate.net/publication/385974307_Expounding_Farmer-herder_Violence_in_Eastern_Nigeria_The_Case_of_the_2016_Nimbo-Ukpabi_Incident_in_Enugu_State',
+      },
+      {
+        title:
           'Connor Ryan. Lagos Never Spoils: Nollywood and Nigerian City Life.',
         authors: EResearcherNames.Sochima_Okafor,
         summary:
@@ -380,6 +391,20 @@ export const publications = [
       },
       {
         title:
+          'Women and the Upsurge of "Baby factories" in Southeastern Nigeria: Erosion of Cultural Values or Capitalism?',
+        authors: [
+          EResearcherNames.Uche_Okonkwo,
+          EResearcherNames.Ngozika_Obi_Ani,
+        ].join(', '),
+        summary:
+          'This paper insists that beyond capitalism, there is a need to interrogate the cultural erosion of values mostly responsible for the erection and proliferation of baby factories scourge.',
+        date: 'September, 2020',
+        publisher: EPublisherNames.JournalOfInternationalWomenStudies,
+        type: EPublicationType.Article,
+        doi: "https://www.researchgate.net/publication/344016323_Women_and_the_Upsurge_of_''Baby_factories''_in_Southeastern_Nigeria_Erosion_of_Cultural_Values_or_Capitalism",
+      },
+      {
+        title:
           "From surviving to living: voice, trauma and witness in Rwandan women's writing",
         authors: EResearcherNames.Chijioke_Onah,
         summary:
@@ -403,6 +428,21 @@ export const publications = [
         publisher: EPublisherNames.CogentArtsAndHumanities,
         type: EPublicationType.Article,
         doi: 'https://www.tandfonline.com/doi/full/10.1080/23311983.2020.1799483',
+      },
+    ],
+  },
+  {
+    year: 2019,
+    items: [
+      {
+        title:
+          'Politics and Gender based Violence in Nigeria:The Case of Kudirat Abiola, 1993-1996',
+        authors: EResearcherNames.Ngozika_Obi_Ani,
+        summary: 'Book chapter in Book, Familiar Tears.',
+        date: 'May, 2019',
+        publisher: EPublisherNames.LAPLAMBERTAcademicPublishing,
+        type: EPublicationType.BookChapter,
+        doi: 'https://www.researchgate.net/publication/336605671_Politics_and_Gender_based_Violence_in_NigeriaThe_Case_of_Kudirat_Abiola_1993-1996',
       },
     ],
   },

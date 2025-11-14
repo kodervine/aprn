@@ -3,6 +3,7 @@ export enum EPublicationType {
   BookChapter = 'Book Chapter',
   BookReview = 'Book Review',
   Essay = 'Essay',
+  ConferencePaper = 'Conference Paper',
 }
 
 export enum EResearcherNames {
@@ -46,4 +47,7 @@ export enum EPublisherNames {
   JournalOfTheInternationalAfricanInstitute = 'Journal of the International African Institute',
   OpenJournalOfSocialSciences = 'Open Journal Of Social Sciences',
   RoutledgeHandbookOfContemporaryAfricanWomen = 'Routledge Handbook of Contemporary African Women',
+  ConflictResearchNetworkWestAfrica = 'Conflict Research Network West Africa',
+  JournalOfInternationalWomenStudies = 'Journal of International Women’s Studies',
+  LAPLAMBERTAcademicPublishing = 'LAP LAMBERT Academic Publishing',
 }
